@@ -10,30 +10,72 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap" rel="stylesheet">
     <!-- LINK LOGO -->
-    <link rel="shortcut icon" href="../assets/Logo.png"/>
-    <!-- LINK CSS -->
+    <link rel="shortcut icon" href="./assets/Logo.png"/>
+    <!-- LINK ESTILOS BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
+    <!-- LINK MIS ESTILOS CSS -->
     <link rel="stylesheet" href="../css/estilos.css">
 </head>
 <body>
     <header>
-        <section>
+        <!-- NAV CON BOOTSTRAP -->
+
+        <nav class="navbar navbar-expand-lg bg-transparent">
+            <div class="container-fluid">
+              <a class="navbar-brand text-light" href="./index.html">Tienda Deportiva</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active text-light" aria-current="page" href="../index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active text-light" href="./productos.html">Productos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active text-light" href="./quienes-somos.html">¿Quiénes somos?</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active text-light" href="./como-comprar.html">¿Cómo comprar?</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active text-light" href="./contacto.html">Contacto</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active text-light" href="./sale.html">Sale</a>
+                  </li>
+                  
+                </ul>
+              </div>
+            </div>
+          </nav>
+
+        <!-- LOGO -->
+
+       <!--  <section>
             <div class="header__content">
                 <h3>
-                    <a href="../index.html" class="header__content-title">Tienda Deportiva</a>
+                    <a href="./index.html" class="header__content-title">Tienda Deportiva</a>
                 </h3>
-                <nav class="menu">
+ -->
+        <!-- MENU DE NAVEGACION -->
+
+      <!--           <nav class="menu">
                     <ul class="header__content-navbar">
-                        <li class="menu__item"> <a href="../index.html">Home</a> </li>
-                        <li class="menu__item"> <a href="./productos.html">Productos</a> </li>
-                        <li class="menu__item"> <a href="./quienes-somos.html">¿Quiénes somos?</a> </li>
-                        <li class="menu__item"> <a href="./como-comprar.html">¿Cómo comprar?</a> </li>
-                        <li class="menu__item"> <a href="./contacto.html">Contacto</a> </li>
-                        <li class="menu__item"> <a href="./sale.html">Sale</a> </li>
+                        <li class="menu__item"> <a href="./index.html">Home</a> </li>
+                        <li class="menu__item"> <a href="./pages/productos.html">Productos</a> </li>
+                        <li class="menu__item"> <a href="./pages/quienes-somos.html">¿Quiénes somos?</a> </li>
+                        <li class="menu__item"> <a href="./pages/como-comprar.html">¿Cómo comprar?</a> </li>
+                        <li class="menu__item"> <a href="./pages/contacto.html">Contacto</a> </li>
+                        <li class="menu__item"> <a href="./pages/sale.html">Sale</a> </li>
                     </ul>
                 </nav>
             </div>
         </section>
-        </nav>
+         -->
     </header>
     <main>
 
