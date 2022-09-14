@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+/* BODY */
+
+body {
+
+    background-color: #e6bfd5;
+    height: 2000px;
+    font-family: 'Inter', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    line-height: 1.5;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.menu__item.active a,
+ .menu__item a:hover {
+    text-decoration: underline;
+}
+
+
+/* WHATSAPP */
+
+.whatsapp {
+    position: fixed;
+    bottom: 2%;
+    right: 2%;
+}
+
+
+/* MAIN */
+
+main {
+    padding: 40px;
+}
+
+

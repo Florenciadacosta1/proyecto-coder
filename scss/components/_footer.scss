@@ -1,0 +1,30 @@
+/* FOOTER */
+
+.footer {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+
+    &__logo {
+        border-radius: 20px;
+        
+    }
+
+    &__contact {
+        background-color: $primary;
+        display: inline-block;
+        width: 100%;
+        color: white;
+        border: none;
+        padding: 10px;
+        text-align: center;
+        border-radius: 20px;
+        cursor: pointer;
+        font-size: 10px;
+        font-weight: bold;
+    }
+}
+
+

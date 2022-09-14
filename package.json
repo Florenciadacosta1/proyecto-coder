@@ -1,0 +1,26 @@
+{
+  "name": "proyecto-1",
+  "version": "1.0.0",
+  "description": "proyecto coder",
+  "main": "index.js",
+  "scripts": {
+    "build-sass": "node-sass --include-path scss ./scss/estilos.scss ./css/styles.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Florenciadacosta1/proyecto-coder.git"
+  },
+  "author": "Florencia Da Costa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Florenciadacosta1/proyecto-coder/issues"
+  },
+  "homepage": "https://github.com/Florenciadacosta1/proyecto-coder#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.3"
+  },
+  "dependencies": {
+    "build-sass": "^1.0.1",
+    "run": "^1.4.0"
+  }
+}
