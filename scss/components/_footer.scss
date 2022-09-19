@@ -1,30 +1,79 @@
 /* FOOTER */
 
 .footer {
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: center;
-    align-items: center;
-    margin: 20px;
+    background-color: $primary;
+    color: white;
+    padding: 60px 20px;
+    width: 100%;
+    /* position: sticky;
+    bottom: 0;
+    
+    z-index: -1; */
 
-    &__logo {
-        border-radius: 20px;
-        
+    &__content {
+        @extend .container;
+        @include templateGrid (3);
+    
+
+        h4 {
+            color: $secondary ;
+            margin-bottom: 20px;
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+        &--list {
+            li {
+                max-width: 10px 0;
+            }
+
+            a {
+                color: $secondary;
+                transition: $transition;
+
+                &hover {
+                    color: white;
+                }
+            }
+
+
+
+        }
     }
 
-    &__contact {
-        background-color: $primary;
-        display: inline-block;
-        width: 100%;
-        color: white;
-        border: none;
-        padding: 10px;
+    &__rrss {
+        @include templateFlex (space-evenly, false);
+        margin-top: 30px;
+
+        /* MAPA */
+
+        $iconSocialMedia: (
+            instagram: #c92d8f,
+            facebook: #2279e4,
+        );
+
+        /* CICLO-BUCLE */
+
+        @each $nameSocialMedia, $colorIcon in $iconSocialMedia {
+            .rs-#{$nameSocialMedia} {
+                color: $secondary;
+                font-size: 30px;
+                transition: $transition;
+
+                &:hover {
+                    color: $colorIcon;
+                }
+            }
+        }
+    }
+
+    &__copy {
+        margin-bottom: 40px;
         text-align: center;
-        border-radius: 20px;
-        cursor: pointer;
-        font-size: 10px;
-        font-weight: bold;
+        color: white;
     }
+
+    
 }
 
 

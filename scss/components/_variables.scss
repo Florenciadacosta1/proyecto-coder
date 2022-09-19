@@ -1,2 +1,37 @@
-/* colores */
+/* COLORES */
+
 $primary: #ff0090;
+
+$secondary: #e6bfd5;
+
+
+
+
+/* MEDIDAS */
+
+$bpSmall: 576px;
+
+$bpMedium: 768px;
+
+$bpLarge: 992px;
+
+
+
+/* UTILS */
+
+$borderRadius: 20px;
+
+$transition: all, 0.3s;
+
+$shadow: 0px 25px 50px -12px rgba(0, 0, 0, 0.6);
+
+
+
+/* FUENTES */
+
+$fontBase: 16px;
+
+$fontMedium: $fontBase + 10;
+
+$fontLarge: $fontBase + 20;
+

@@ -5,10 +5,9 @@
 
 .banner {
     width: 100%;
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: center;
-    align-items: center;
+    @extend .container;
+        
+    @include templateFlex (center, true);
 
     &__content {
         width: 100%;
@@ -26,9 +25,10 @@
 
 
 .banner2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @extend .container;
+        
+    @include templateFlex (center, true);
+
     margin: 20px 20px 20px 20px;
     font-size: 30px;
     font-weight: bold;
@@ -57,11 +57,10 @@
     }
 
     &__content {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 50px;
-        max-width: 1200px;
-        margin: 0 auto;
+        @extend .container;
+
+        @include templateGrid(3);
+        
     }
 }
 
@@ -106,7 +105,7 @@
     &__title {
         font-size: 30px;
         font-weight: bold;
-        color: #e6bfd5;
+        color: $secondary;
         text-align: center;
         margin-bottom: 10px;
     
@@ -116,12 +115,12 @@
         margin-bottom: 40px;
         font-size: 14px;
         text-align: center;
-        color: #e6bfd5;
+        color: $secondary;
         
     }
 
     &__link {
-        background-color: #e6bfd5;
+        background-color: $secondary;
         display: inline-block;
         width: 100%;
         padding: 15px 0;
@@ -133,7 +132,7 @@
 
         &:hover {
 
-            background-color: #e6bfd5;
+            background-color: $secondary;
             display: inline-block;
             width: 100%;
             padding: 15px 0;

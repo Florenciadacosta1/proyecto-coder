@@ -1,4 +1,7 @@
-/* colores */
+/* COLORES */
+/* MEDIDAS */
+/* UTILS */
+/* FUENTES */
 * {
   margin: 0;
   padding: 0;
@@ -34,6 +37,12 @@ ul {
 main {
   padding: 40px; }
 
+/* EXTEND */
+.container, header__content, .banner, .banner2, .productos__content, .footer__content {
+  max-width: 1200px;
+  margin: 0 auto; }
+
+/* mixins */
 /* header */
 header {
   position: sticky;
@@ -47,8 +56,9 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1200px;
-    margin: 0 auto; }
+    /* display: flex;
+        justify-content: space-between;
+        align-items: center; */ }
     header__content-title {
       color: white; }
     header__content-navbar {
@@ -69,7 +79,6 @@ header,
 .banner {
   width: 100%;
   display: flex;
-  flex-flow: row nowrap;
   justify-content: center;
   align-items: center; }
   .banner__content {
@@ -107,9 +116,7 @@ header,
   .productos__content {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 50px;
-    max-width: 1200px;
-    margin: 0 auto; }
+    gap: 50px; }
 
 .card {
   background-color: #ff0090;
@@ -227,25 +234,52 @@ header,
 
 /* FOOTER */
 .footer {
-  display: flex;
-  flex-flow: column nowrap;
-  justify-content: center;
-  align-items: center;
-  margin: 20px; }
-  .footer__logo {
-    border-radius: 20px; }
-  .footer__contact {
-    background-color: #ff0090;
-    display: inline-block;
-    width: 100%;
-    color: white;
-    border: none;
-    padding: 10px;
+  background-color: #ff0090;
+  color: white;
+  padding: 60px 20px;
+  width: 100%;
+  /* position: sticky;
+    bottom: 0;
+    
+    z-index: -1; */ }
+  .footer__content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px; }
+    .footer__content h4 {
+      color: #e6bfd5;
+      margin-bottom: 20px;
+      font-weight: bold;
+      font-size: 20px; }
+    .footer__content--list li {
+      max-width: 10px 0; }
+    .footer__content--list a {
+      color: #e6bfd5;
+      transition: all, 0.3s; }
+      .footer__content--list ahover {
+        color: white; }
+  .footer__rrss {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    /* MAPA */
+    /* CICLO-BUCLE */ }
+    .footer__rrss .rs-instagram {
+      color: #e6bfd5;
+      font-size: 30px;
+      transition: all, 0.3s; }
+      .footer__rrss .rs-instagram:hover {
+        color: #c92d8f; }
+    .footer__rrss .rs-facebook {
+      color: #e6bfd5;
+      font-size: 30px;
+      transition: all, 0.3s; }
+      .footer__rrss .rs-facebook:hover {
+        color: #2279e4; }
+  .footer__copy {
+    margin-bottom: 40px;
     text-align: center;
-    border-radius: 20px;
-    cursor: pointer;
-    font-size: 10px;
-    font-weight: bold; }
+    color: white; }
 
 /* PRODUCTOS2 CARD2 */
 .productos2 {

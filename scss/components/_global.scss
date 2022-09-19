@@ -47,3 +47,28 @@ main {
 }
 
 
+/* EXTEND */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* mixins */
+@mixin templateGrid ($columns) {
+
+    display: grid;
+    grid-template-columns: repeat($columns, 1fr);
+    gap: 50px;
+    
+}
+
+@mixin templateFlex ($valueJustify, $alignItems) {
+
+    display: flex;
+    justify-content: $valueJustify;
+
+    @if ($alignItems == true) {
+        align-items: center;
+    }
+
+}

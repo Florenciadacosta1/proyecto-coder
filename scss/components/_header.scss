@@ -10,11 +10,13 @@ header {
 
     &__content {
 
-        display: flex;
+        @extend .container;
+        
+        @include templateFlex (space-between, true);
+
+        /* display: flex;
         justify-content: space-between;
-        align-items: center;
-        max-width: 1200px;
-        margin: 0 auto;
+        align-items: center; */
 
         &-title {
             color: white;
