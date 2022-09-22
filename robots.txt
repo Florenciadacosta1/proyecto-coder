@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://github.com/Florenciadacosta1/proyecto-coder/sitemap.xml
