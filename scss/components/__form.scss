@@ -1,0 +1,42 @@
+form {
+    width: 450px;
+    margin: auto;
+    background-color:  $primary;
+    padding: 10px 20px;
+    margin-top:  20px;
+    border-radius:    7px;
+    }
+
+  .form__title {
+    color: #e6bfd5;
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+
+  input, textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 7px;
+    font-size: 18px;
+    border: none;
+    border-radius: 20px;
+  }
+
+  textarea {
+    min-height: 100px;
+    max-height: 200px;
+
+  }
+
+  #boton {
+    background-color: $secondary;
+    color: $primary;
+    padding: 20px;
+  }
+
+  #boton:hover {
+    cursor: pointer;
+  }
