@@ -85,6 +85,94 @@
         margin: 0 auto;
     }
 
+    .card2 {
+        background-color: #ff0090;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0px 25px 50px -12px rgba(0, 0, 0, 0.6);
+        transition: 0.5s; }
+        .card2:hover {
+          transform: scale(1.1); }
+        .card2__header {
+          position: relative; }
+          .card2__header--tag {
+            display: none;
+            /* padding: 8px;
+            color: #ff0090;
+            /* font-size: 30px; */
+            font-weight: bold;
+            background-color: white;
+            position: absolute;
+            right: 0;
+            border-top-right-radius: 20px;
+            border-bottom-left-radius: 20px;  }
+          .card2__header--img {
+            width: 100%;
+            border-radius: 20px; }
+        .card2__title {
+          font-size: 20px;
+          font-weight: bold;
+          color: #e6bfd5;
+          text-align: center;
+          margin-bottom: 10px; }
+        .card2__description {
+          display: none;
+          /* margin-bottom: 40px;
+          font-size: 12px;
+          text-align: center;
+          color: #e6bfd5; */ }
+        .card2__link {
+          background-color: #e6bfd5;
+          display: inline-block;
+          width: 100%;
+          padding: 15px 0;
+          text-align: center;
+          color: #ff0090;
+          border-radius: 20px;
+          font-size: 16px;
+          font-weight: bold; }
+        .card2__button {
+          background-color: white;
+          display: inline-block;
+          width: 100%;
+          color: #ff0090;
+          border: none;
+          padding: 10px;
+          text-align: center;
+          border-radius: 20px;
+          cursor: pointer;
+          font-size: 16px;
+          font-weight: bold; }
+        .card2__talles {
+          display: inline-block;
+          width: 100%;
+          background-color: #e6bfd5;
+          color: #ff0090;
+          padding: 15px 0;
+          text-align: center;
+          border-radius: 50px;
+          font-size: 12px;
+          font-weight: bold;
+          margin-bottom: 10px;
+          border: none; }
+        .card2__buy {
+          background-color: #e6bfd5;
+          display: inline-block;
+          width: 100%;
+          padding: 15px 0;
+          text-align: center;
+          color: #ff0090;
+          border-radius: 50px;
+          font-size: 12px;
+          font-weight: bold;
+          border: none; }
+      
+      .card2__header--img,
+      .card2__header--title,
+      .card2__description {
+        margin-bottom: 10px; }
+    
+
 
 
 
