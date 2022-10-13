@@ -427,6 +427,8 @@ header,
     grid-template-columns: repeat(1, 1fr);
     width: 200px;
     margin: 0 auto; }
+
+
   .productos2__content {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -450,12 +452,12 @@ header,
           /* padding: 8px;
           color: #ff0090;
           /* font-size: 30px; */
-          font-weight: bold;
+          /* font-weight: bold;
           background-color: white;
           position: absolute;
           right: 0;
           border-top-right-radius: 20px;
-          border-bottom-left-radius: 20px;  }
+          border-bottom-left-radius: 20px; */  }
         .card2__header--img {
           width: 100%;
           border-radius: 20px; }
