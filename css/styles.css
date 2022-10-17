@@ -35,7 +35,9 @@ ul {
 
 /* MAIN */
 main {
-  padding: 40px; }
+  padding: 40px;
+ 
+}
 
 /* EXTEND */
 .container, header__content, .banner, .banner2, .productos__content, .footer__content {
@@ -379,6 +381,87 @@ header,
     cursor: pointer;
   }
 
+  .comprar {
+  background-color: #ff0090;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 25px 50px -12px rgba(0, 0, 0, 0.6);
+  transition: 0.5s;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+
+
+  }
+
+  .comprar__content {
+    color: #e6bfd5;
+
+  }
+
+ 
+
+  .comprar__content-title {
+    font-size: 50px;
+    font-weight: bold;
+
+    text-align: center;
+    margin-bottom: 10px;
+
+  }
+
+  
+  .comprar__content-list {
+
+    list-style: none;
+    font-weight: bold;
+    font-size: 20px;
+    
+  }
+
+  .comprar__video {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    
+
+
+  }
+
+  .boton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .boton__productos {
+
+    background-color: #c92d8f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    width:300px;
+    height: 50px;
+    color: #e6bfd5;
+    border: none;
+    padding: 10px;
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: bold;
+    
+
+  }
+
+
+
+
   /* RESPONSIVE - MOBILE LAST */
 @media (max-width: 768px) {
   .header__content {
@@ -496,6 +579,81 @@ header,
   
   }
 
+  .comprar {
+    background-color: #ff0090;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 25px 50px -12px rgba(0, 0, 0, 0.6);
+    transition: 0.5s;
+    width: 60%;
+    margin-left: 20%;
+    display: flex;
+    justify-content: space-around;
+  
+  
+    }
+  
+    .comprar__content {
+      color: #e6bfd5;
+  
+    }
+  
+   
+  
+    .comprar__content-title {
+      font-size: 50px;
+      font-weight: bold;
+  
+      text-align: center;
+      margin-bottom: 10px;
+  
+    }
+  
+    
+    .comprar__content-list {
+  
+      list-style: none;
+      font-weight: bold;
+      font-size: 20px;
+      
+    }
+  
+    .comprar__video {
+  
+      display: flex;
+      
+  
+  
+    }
+  
+    .boton {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .boton__productos {
+  
+      background-color: #c92d8f;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 10px;
+      width:300px;
+      height: 50px;
+      color: #e6bfd5;
+      border: none;
+      padding: 10px;
+      text-align: center;
+      border-radius: 20px;
+      cursor: pointer;
+      font-size: 24px;
+      font-weight: bold;
+      
+  
+    }
+  
+
     
 
 @media (max-width: 320px) {
@@ -612,6 +770,80 @@ header,
     .card2__header--title,
     .card2__description {
       margin-bottom: 10px; }
+
+      .comprar {
+        background-color: #ff0090;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0px 25px 50px -12px rgba(0, 0, 0, 0.6);
+        transition: 0.5s;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+      
+      
+        }
+      
+        .comprar__content {
+          color: #e6bfd5;
+      
+        }
+      
+       
+      
+        .comprar__content-title {
+          font-size: 20px;
+          font-weight: bold;
+      
+          text-align: center;
+          margin-bottom: 10px;
+      
+        }
+      
+        
+        .comprar__content-list {
+      
+          list-style: none;
+          font-weight: bold;
+          font-size: 12px;
+          
+        }
+      
+        .comprar__video {
+      
+        display: none;
+          
+      
+      
+        }
+      
+        .boton {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+      
+        .boton__productos {
+      
+          background-color: #c92d8f;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-top: 10px;
+          width:300px;
+          height: 50px;
+          color: #e6bfd5;
+          border: none;
+          padding: 10px;
+          text-align: center;
+          border-radius: 20px;
+          cursor: pointer;
+          font-size: 24px;
+          font-weight: bold;
+          
+      
+        }
+      
   
   
   }
